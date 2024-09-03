@@ -16,7 +16,7 @@
 	  upKey: 38,                // key code to navigate to the next section
 	  downKey: 40,              // key code to navigate to the previous section
 	  easing: 'swing',         // the easing function for animation
-	  scrollTime: 600,          // how long (in ms) the animation takes
+	  scrollTime: 500,          // how long (in ms) the animation takes
 	  activeClass: 'active',    // class given to the active nav element
 	  onPageChange: null,       // function(pageIndex) that is called when page is changed
 	  topOffset: -60            // offste (in px) for fixed top navigation
@@ -96,7 +96,7 @@
         var banner = $("#main-banner");
         if (banner.length) {
           banner.camera({ //here I declared some settings, the height and the presence of the thumbnails 
-            height: '870px',
+            height: '750px',
             pagination: true,
             navigation: false,
             thumbnails: false,
@@ -107,7 +107,7 @@
             overlayer: true,
             loader: 'none',
             minHeight: '400px',
-            time: 400000,
+            time: 3000,
           });
         };
 	
